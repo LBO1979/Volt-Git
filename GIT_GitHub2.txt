@@ -1,0 +1,92 @@
+﻿#########
+#
+#  GIT
+#
+#########
+- Pourquoi?
+
+	- lorsque l'on travaille sur des documents sensibles, on les renomme en 
+			monfichier.sauvegarde
+			monfichier.sauvegarde2
+			monfichier.sauvegarde-6-decembre
+	-> C'est vite compliqué
+
+-> Solution : Systeme de Contrôle de Version
+	Distributed Version Control System
+
+	Version Control
+		- revenir a une version précédente du projet
+		- voir les différences entre 2 versions
+	Distribué / Décentralisé
+		- récupérer les dernières modifications
+		- envoyer ses modifications
+		- gérer les conflits
+		- garder un historique
+
+
+#########
+#
+#  GitHub
+#
+#########
+- Un Réseau Social
+	- profil
+	- projets
+	- connections avec d'autres personnes (suivre leur travail, suivre des gens, être suivi par d'autres)
+	- parfait pour collaborer sur un projet (pas forcement du code ou un programme)
+	- proposer des améliorations
+	- signaler des bugs
+
+Blabla
+
+#########
+#
+#  On essaie
+#
+#########
+- https://help.github.com/articles/set-up-git/
+
+- installer git
+- cloner un projet
+- faire des modifications
+	- git add fichiers modifiés
+	- git commit -m "un commentaire explicite"
+- regarder ce qui a changé
+	- git status
+	- git log
+
+
+- Créer une branche
+	- en ligne de commande ou avec github desktop
+	- faire les modifications et commit
+	- puis ajouter les modifications de cette branche a une autre:
+		- selectionner la branche a laquelle ou veux ajouter
+		- faire compare et selectionner votre branche
+		- puis update from votre branche
+
+
+- Créer un répository
+- Fork un répository
+	- se connecter a son compte github
+	- naviger jusque la page du projet
+	- cliquer fork
+
+	
+- Collaborer
+	- faire un pull request
+	- accepter un pull request
+	- on peut ajouter des contributeurs a notre projet pour qu'ils soient capable de push directement
+
+
+
+La terminologie:
+Push -> envoyer ses modifications
+Pull -> récupérer les modifications
+Branch -> creer une autre ramification pour ajouter une fonctionnalité
+Merge -> ajoute les modifications ensemble. Cela se fait automatiquement sauf en cas de conflit
+Fork -> copie personnelle d'un projet
+Pull Request -> proposition d'amélioration au projet initial
+
+
+
+
